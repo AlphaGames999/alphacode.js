@@ -1,0 +1,25 @@
+h1 {
+  font-family: 'arial', sans-serif;
+}
+
+.green-color {
+  color: green;
+}
+
+.button {
+  padding: 1em;
+  border: solid green 1px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, green, darkgreen);
+  color: white;
+  margin-right: 1em;
+}
+
+.button:hover {
+  border: solid 0.05px lightblue;
+  cursor: pointer;
+}
+
+.button:active {
+  background: linear-gradient(0deg, green, darkgreen);
+}
